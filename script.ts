@@ -1,17 +1,17 @@
 
-interface Car[]{
-    make: 'string';
-    model: 'string';
-    year: 'number';
-    hybrid: 'boolean';
+interface Car{
+    make: string;
+    model: string;
+    year: number;
+    hybrid: boolean;
 }
 
-let dealership = dealership: Car[]{
+const dealership: Car[] = [
     {
     make: 'Toyota',
     model: 'Prius',
     year: 2020,
-    hybrid: true;
+    hybrid: true
     },
 
     {
@@ -34,7 +34,7 @@ let dealership = dealership: Car[]{
     year: 2004,
     hybrid: false
     }
-}
+]
 
 function findCars(arrayOfCars) {
     
